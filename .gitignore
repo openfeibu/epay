@@ -1,0 +1,7 @@
+.idea/
+.gitignore
+*.apk
+*.zip
+etc/app
+etc/log
+config/cache/

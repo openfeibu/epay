@@ -1,0 +1,65 @@
+code{ 
+	font-family:Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+	display:block;
+	color:#333333; 
+	font-size:13px; 
+	overflow:auto;
+	background-color: #f8f8f8;
+	width: 90%;
+	padding:10px;
+}
+
+table {
+	width: 90%;
+	/* font-family: verdana,arial,sans-serif; */
+	font-family: Consolas,verdana,arial;
+	font-size:14px;
+	color:#333333;
+	border-width: 1px;
+	border-color: #ddd;
+	border-collapse: collapse;
+}
+
+table th {
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #ddd;
+	background-color: #f8f8f8;
+}
+table td {
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #ddd;
+	background-color: #ffffff;
+}
+
+tr:hover td{
+	/*background-color:#c0d2ec;*/
+	background-color:#f1f5fb;
+}
+
+#sidebar {
+	width:16%;
+	float:left;
+}
+
+#content {
+	width:75%;
+	padding-left: 25px;
+	border-left:1px solid #ccc;
+	float:left
+}
+
+blockquote {
+	display: block;
+	margin: 5px 5px;
+	box-shadow: inset 4px 0 rgba(17,17,17,0.3);
+	text-align: left;
+}
+
+blockquote p {
+	margin: 5px 5px;
+	padding: 0 10px;
+}

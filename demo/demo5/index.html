@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--
+/*
+ * @(#)post.html	V1.3.1	2010/08/10
+ *
+ *  Description:
+ *  =========================================================================
+ *  商户支付请求范例页面。
+ *
+ *  Change History:
+ *  Author     Date       Description
+ *  ========== ========== ===================================================
+ *  Allinpay   2010/08/10 V1.3.1 Release
+ *
+ *  =========================================================================
+ *
+ */
+-->
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<HEAD>
+<title>收银宝网关支付-商户接口范例-支付请求</title>
+<link href="css.css" rel="stylesheet" type="text/css">
+</HEAD>
+<BODY BGCOLOR='#FFFFFF' TEXT='#000000' LINK='#0000FF' VLINK='#0000FF' ALINK='#FF0000'>
+<center> <h2>通联支付</h2></center>
+<br>
+<form action="post.php" method="post">
+	
+			<input type="hidden" name="serverUrl" value="https://vsp.allinpay.com/apiweb/gateway/pay"/>
+		
+		
+            <table border="1" cellpadding="1" cellspacing="1" align="center">	
+			<tr>
+            
+				<td>支付金额(单位分):</td>
+				<td><input type="text" name="money" value="1"/><font color="red">*</font></td>
+			</tr>
+            	</table>
+			
+				<input type="text" name="orderid" value="gid201909070"/>
+			<input type="hidden" name="goodsinf" value="手机充值"/><font color="red">*</font>
+            <input type="hidden" name="returl" value="http://baidu.com"/>
+            <input type="hidden" name="notify" value="http://168.tihou.com/demo/demo5/notifyurl.php"/>
+            
+	
+		<div align="center"><input type="submit" value="立即支付"/></div>
+</form>
+
+<script language="javascript">
+	//setOrderNo();	
+	function setOrderNo() {
+		var curr = new Date();
+		var m = curr.getMonth() + 1;
+		if (m < 10) {m = '0' + m;}
+		var d = curr.getDate();
+		if (d < 10) {d = '0' + d;}
+		var h = curr.getHours();
+		if (h < 10) {h = '0' + h;}
+		var mi = curr.getMinutes();
+		if (mi < 10) {mi = '0' + mi;}
+		var s = curr.getSeconds();
+		if (s < 10) {s = '0' + s;}
+		var strDatetime = '' + curr.getFullYear() + m + d + h + mi + s;		
+		document.getElementById("orderDatetime").value = strDatetime;
+		document.getElementById("orderNo").value = 'NO' + strDatetime;
+	}
+</script>
+
+</BODY>
+</HTML>

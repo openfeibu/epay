@@ -1,0 +1,1 @@
+MD5 sign succeed!7b7aa3488b9bb2008bdf786708f1390620180627185542919是商户订单号; 2018062718554970777是支付平台返回的订单号; 0.01是订单金额; 10003是商户ID;  TRADE_SUCCESS是订单状态; alipay是支付平台代码alipay/wxpay/QQpay; 7b7aa3488b9bb2008bdf786708f13906是签名.

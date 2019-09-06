@@ -1,0 +1,7 @@
+# 禁止搜索
+User-agent: *
+Disallow: /
+
+# 允许搜索
+# User-agent: *
+# Crawl-delay: 10

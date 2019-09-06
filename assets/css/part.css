@@ -1,0 +1,40 @@
+.p1{
+	width:550px;
+	height:190px;
+}
+.p_ta{
+	height:125px;
+}
+.p_s_1{
+	font-size:2em;
+}
+.p_ta div{
+	float:left;border:1px solid #ccc;width:127px;height:33px;line-height: 33px;border: 1px solid #80C5FF;cursor: pointer;
+}
+.p_tr2 input{
+	margin-left:10px;
+}
+.m_left{
+	margin-left:10px;
+}
+.zf_d1{
+	background: url(../images/aliewm.png);
+}
+.zf_d2{
+	background: url(../images/wxzf.png);
+}
+.zf_d3{
+	background: url(../images/cft.png);
+}
+.p_d4{
+	width:160px;
+	height:40px;
+	border-radius: 200px;
+	background-color: #1B9AF7;
+	border-color: #1B9AF7;
+	color:#fff;
+	text-align: center;
+	line-height: 40px;
+	cursor: pointer;
+	border:0px;
+}

@@ -1,0 +1,1 @@
+<?php exit;?>a:3:{s:14:"order_firstday";i:0;s:18:"order_firstday_num";i:0;s:7:"lastday";s:19:"2019-09-05 00:00:00";}

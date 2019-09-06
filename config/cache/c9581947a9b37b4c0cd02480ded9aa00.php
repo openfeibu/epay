@@ -1,0 +1,1 @@
+<?php exit;?>a:2:{s:9:"order_sum";i:0;s:11:"today_begin";s:19:"2019-09-05 00:00:00";}
